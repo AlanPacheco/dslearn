@@ -35,7 +35,7 @@ public class Section implements Serializable{
 	public Section() {
 	}
 
-	public Section(Long id, String title, String description, Integer position, String imgUri, Resource resource, Section prerequisites) {
+	public Section(Long id, String title, String description, Integer position, String imgUri, Resource resource, Section prerequisite) {
 		this.id = id;
 		this.title = title;
 		this.description = description;
