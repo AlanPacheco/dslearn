@@ -96,6 +96,10 @@ public class Offer implements Serializable{
 	public List<Resource> getResources() {
 		return resources;
 	}
+	
+	public List<Topic> getTopics() {
+		return topics;
+	}
 
 	@Override
 	public int hashCode() {
